@@ -9,3 +9,4 @@ spinodals/
 .local/
 .npm/
 ondemand/
+.git-credentials
