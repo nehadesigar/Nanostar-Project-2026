@@ -3,3 +3,9 @@ binodals/
 spinodals/
 *.png
 *.gif
+.cache/
+.ipython/
+.jupyter/
+.local/
+.npm/
+ondemand/
