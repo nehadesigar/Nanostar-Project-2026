@@ -10,3 +10,6 @@ spinodals/
 .npm/
 ondemand/
 .git-credentials
+.cupy/
+.nv/
+.ipynb_checkpoints/
