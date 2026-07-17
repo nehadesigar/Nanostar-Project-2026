@@ -1,8 +1,6 @@
 my_env/
 binodals/
 spinodals/
-*.png
-*.gif
 .cache/
 .ipython/
 .jupyter/
