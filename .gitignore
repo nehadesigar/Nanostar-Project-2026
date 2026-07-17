@@ -11,3 +11,4 @@ ondemand/
 .cupy/
 .nv/
 .ipynb_checkpoints/
+*.gif
