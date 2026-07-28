@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="custom-command" type="string" value="/bin/bash -lc &quot;cd \&quot;$HOME\&quot;; exec \&quot;/usr/bin/bash\&quot; -l&quot;"/>
+</channel>

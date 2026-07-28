@@ -1,0 +1,56 @@
+#!/bin/bash
+
+SHELL_NAME="${USER_SHELL_NAME:-bash}"
+
+case "$SHELL_NAME" in
+  bash|zsh|tcsh|csh|sh|ksh)
+    ;;
+  *)
+    SHELL_NAME="bash"
+    ;;
+esac
+
+SHELL_PATH="$(command -v "$SHELL_NAME" 2>/dev/null || true)"
+
+if [ -z "$SHELL_PATH" ] || [ ! -x "$SHELL_PATH" ]; then
+  echo "[WARN] Requested shell '$SHELL_NAME' not found in container; falling back to bash"
+  SHELL_PATH="$(command -v bash)"
+fi
+
+echo "[INFO] Using desktop shell: $SHELL_PATH"
+
+export GTK_USE_PORTAL=0
+export XDG_CURRENT_DESKTOP=XFCE
+export DESKTOP_SESSION=xfce
+export XDG_SESSION_DESKTOP=xfce
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+
+export XDG_RUNTIME_DIR="$HOME/.runtime-ood"
+mkdir -p "$XDG_RUNTIME_DIR"
+chmod 700 "$XDG_RUNTIME_DIR"
+
+[ -f "$HOME/.Xresources" ] && xrdb "$HOME/.Xresources" || true
+
+mkdir -p "$HOME/.cache/sessions"
+mkdir -p "$HOME/.config/xfce4/xfconf/xfce-perchannel-xml"
+mkdir -p "$HOME/.config/xfce4/terminal"
+
+cat > "$HOME/.config/xfce4/terminal/terminalrc" <<TERMRC
+[Configuration]
+MiscLoginShell=TRUE
+UseCustomCommand=TRUE
+CustomCommand=/bin/bash -lc "cd \"\$HOME\"; exec \"$SHELL_PATH\" -l"
+TERMRC
+
+export SHELL="$SHELL_PATH"
+
+if command -v dbus-launch >/dev/null 2>&1; then
+  eval "$(dbus-launch --sh-syntax)"
+fi
+
+cd "$HOME" || cd /
+
+exec startxfce4
+

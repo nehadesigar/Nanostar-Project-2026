@@ -1,0 +1,1 @@
+Parameters type = AAAA, B2 = 1600, dHa = -40000, dSa = -118, dHb = -42000, dSb = -120Progress: 3 out of 500

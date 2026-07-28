@@ -1,0 +1,4 @@
+[Configuration]
+MiscLoginShell=TRUE
+UseCustomCommand=TRUE
+CustomCommand=/bin/bash -lc "cd \"$HOME\"; exec \"/usr/bin/bash\" -l"

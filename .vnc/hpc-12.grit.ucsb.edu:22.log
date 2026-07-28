@@ -1,0 +1,182 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.13.1 - built 2024-04-01 08:26
+Copyright (C) 1999-2022 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101011
+
+
+Wed Jul 22 19:18:43 2026
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5922
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'hpc-12.grit.ucsb.edu:22 (nehadesigar)' on port 5922 for display :22.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /tmp/tigervnc.A06_iq/passwd :22 to connect to the VNC server.
+[INFO] Using desktop shell: /usr/bin/bash
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x5917986ca580 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5917986ca580 for event 3
+/usr/bin/startxfce4: X server already running on display :22
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+/usr/bin/iceauth:  creating new authority file /home/nehadesigar/.runtime-ood/ICEauthority
+gpg-agent[823471]: directory '/home/nehadesigar/.gnupg' created
+gpg-agent[823471]: directory '/home/nehadesigar/.gnupg/private-keys-v1.d' created
+gpg-agent[823472]: gpg-agent (GnuPG) 2.4.4 started
+
+(xfwm4:823473): xfwm4-WARNING **: 19:18:45.054: Another compositing manager is running on screen 0
+
+(xfsettingsd:823488): libupower-glib-WARNING **: 19:18:45.091: Couldn't connect to proxy: Could not connect: No such file or directory
+
+** (light-locker:823516): ERROR **: 19:18:45.508: session_id is not set, is /proc mounted with hidepid>0?
+
+(polkit-gnome-authentication-agent-1:823521): polkit-gnome-1-WARNING **: 19:18:45.581: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+** (xiccd:823546): CRITICAL **: 19:18:45.669: Failed to connect to colord: Could not connect: No such file or directory
+Xlib:  extension "DPMS" missing on display ":22.0".
+
+(xfce4-power-manager:823538): xfce4-power-manager-WARNING **: 19:18:45.675: Monitor is not DPMS capable
+
+(xfce4-power-manager:823538): GLib-GIO-CRITICAL **: 19:18:45.675: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+system-config-printer-applet: failed to connect to system D-Bus
+
+(nm-applet:823517): nm-applet-WARNING **: 19:18:45.914: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:823517): nm-applet-WARNING **: 19:18:45.915: Could not connect: No such file or directory
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.916: ((src/libnm-client-impl/nm-client.c:4115)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4066)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4166)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4214)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4253)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4287)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4326)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+
+(nm-applet:823517): nm-CRITICAL **: 19:18:45.917: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+
+(xfce4-power-manager:823538): libupower-glib-WARNING **: 19:18:46.050: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.068: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:823538): xfce4-power-manager-WARNING **: 19:18:46.081: Unable connect to system bus: Could not connect: No such file or directory
+
+(xfce4-power-manager:823538): xfce4-power-manager-CRITICAL **: 19:18:46.097: Unable to get system bus connection : Could not connect: No such file or directory
+xfce4-panel-Message: 19:18:46.098: Plugin "(null)-7" was not found and has been removed from the configuration
+libclock-Message: 19:18:46.185: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:823492): libclock-WARNING **: 19:18:46.193: could not instantiate a sleep monitor
+Another notification daemon is running, exiting
+
+(xfdesktop:823507): GVFS-RemoteVolumeMonitor-WARNING **: 19:18:46.701: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(wrapper-2.0:823586): libupower-glib-WARNING **: 19:18:46.954: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(wrapper-2.0:823586): xfce4-power-manager-plugin-WARNING **: 19:18:46.965: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(xfce4-session:823417): xfce4-session-WARNING **: 19:18:47.073: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:823587): xfce4-notification-plugin-WARNING **: 19:18:47.080: Unable to check for unread messages: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code0: Log is unavailable
+
+(xfce4-session:823417): xfce4-session-WARNING **: 19:18:47.106: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:823417): xfce4-session-WARNING **: 19:18:47.130: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+** (xfdesktop:823507): WARNING **: 19:19:11.950: Failed to get system bus: Could not connect: No such file or directory
+
+Wed Jul 22 19:19:30 2026
+ Connections: accepted: 127.0.0.1::39634
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:823497): GVFS-RemoteVolumeMonitor-WARNING **: 19:19:37.824: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+xfce4-terminal-Message: 19:19:44.649: Your Terminal settings have been migrated to Xfconf. The config file "/home/nehadesigar/.config/xfce4/terminal/terminalrc" is not used anymore.
+
+Wed Jul 22 19:31:35 2026
+ VNCSConnST:  closing 127.0.0.1::39634: Clean disconnection
+ EncodeManager: Framebuffer updates: 1790
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.008 krects, 7.00443 Mpixels
+ EncodeManager:            31.375 KiB (1:872.815 ratio)
+ EncodeManager:     Bitmap RLE: 310 rects, 145.867 kpixels
+ EncodeManager:                 9.46875 KiB (1:60.5598 ratio)
+ EncodeManager:     Indexed RLE: 3.7 krects, 3.47364 Mpixels
+ EncodeManager:                  628.021 KiB (1:21.6749 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 3.347 krects, 21.0365 Mpixels
+ EncodeManager:                  13.9752 MiB (1:5.74491 ratio)
+ EncodeManager:   Total: 9.365 krects, 31.6605 Mpixels
+ EncodeManager:          14.6284 MiB (1:8.26354 ratio)
+ Connections: closed: 127.0.0.1::39634
+ ComparingUpdateTracker: 215.913 Mpixels in / 27.5234 Mpixels out
+ ComparingUpdateTracker: (1:7.84471 ratio)
+
+(xfsettingsd:823488): libxfce4ui-WARNING **: 19:31:36.145: ICE I/O Error
+
+(xfsettingsd:823488): libxfce4ui-WARNING **: 19:31:36.145: Disconnected from session manager.
+
+(xfce4-power-manager:823538): libxfce4ui-WARNING **: 19:31:36.145: ICE I/O Error
+
+(xfce4-power-manager:823538): libxfce4ui-WARNING **: 19:31:36.145: Disconnected from session manager.
+
+(xfce4-terminal:825681): libxfce4ui-WARNING **: 19:31:36.146: ICE I/O Error
+
+(xfce4-terminal:825681): libxfce4ui-WARNING **: 19:31:36.146: Disconnected from session manager.
+The X session exited with status 1!
+Killing Xtigervnc process ID 823416...
+Wed Jul 22 19:31:36 2026
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ success!

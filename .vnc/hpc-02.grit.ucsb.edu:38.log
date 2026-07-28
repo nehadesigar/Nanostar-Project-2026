@@ -1,0 +1,172 @@
+
+Xvnc TigerVNC 1.13.1 - built 2024-04-01 08:26
+Copyright (C) 1999-2022 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101011
+
+
+Wed Jul 22 13:42:41 2026
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5938
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'hpc-02.grit.ucsb.edu:38 (nehadesigar)' on port 5938 for display :38.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /tmp/tigervnc.XYc96O/passwd :38 to connect to the VNC server.
+[INFO] Using desktop shell: /usr/bin/bash
+libEGL warning: failed to open /dev/dri/card3: Permission denied
+
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+libEGL warning: failed to open /dev/dri/card3: Permission denied
+
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+libEGL warning: failed to open /dev/dri/card3: Permission denied
+
+libEGL warning: failed to open /dev/dri/card2: Permission denied
+
+libEGL warning: failed to open /dev/dri/card1: Permission denied
+
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x5ac347c3d580 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5ac347c3d580 for event 3
+/usr/bin/startxfce4: X server already running on display :38
+
+(xfwm4:2478528): xfwm4-WARNING **: 13:42:43.318: Unsupported GL renderer (llvmpipe (LLVM 20.1.2, 256 bits)).
+
+(xfsettingsd:2478549): libupower-glib-WARNING **: 13:42:43.354: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(polkit-gnome-authentication-agent-1:2478586): polkit-gnome-1-WARNING **: 13:42:43.817: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+** (light-locker:2478572): ERROR **: 13:42:43.844: session_id is not set, is /proc mounted with hidepid>0?
+Xlib:  extension "DPMS" missing on display ":38.0".
+
+(xfce4-power-manager:2478600): xfce4-power-manager-WARNING **: 13:42:43.923: Monitor is not DPMS capable
+
+(xfce4-power-manager:2478600): GLib-GIO-CRITICAL **: 13:42:43.924: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+** (xiccd:2478603): CRITICAL **: 13:42:43.968: Failed to connect to colord: Could not connect: No such file or directory
+
+(nm-applet:2478579): nm-applet-WARNING **: 13:42:44.125: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:2478579): nm-applet-WARNING **: 13:42:44.126: Could not connect: No such file or directory
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.126: ((src/libnm-client-impl/nm-client.c:4115)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4066)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4166)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4214)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4253)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4287)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4326)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+
+(nm-applet:2478579): nm-CRITICAL **: 13:42:44.128: ((src/libnm-client-impl/nm-client.c:4847)): assertion '<dropped>' failed
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-power-manager:2478600): libupower-glib-WARNING **: 13:42:44.161: Couldn't connect to proxy: Could not connect: No such file or directory
+libclock-Message: 13:42:44.170: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:2478553): libclock-WARNING **: 13:42:44.170: could not instantiate a sleep monitor
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: xfpm_polkit_check_auth_intern: assertion 'polkit->priv->proxy != NULL' failed
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.171: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:2478600): xfce4-power-manager-WARNING **: 13:42:44.177: Unable connect to system bus: Could not connect: No such file or directory
+
+(xfce4-power-manager:2478600): xfce4-power-manager-CRITICAL **: 13:42:44.197: Unable to get system bus connection : Could not connect: No such file or directory
+system-config-printer-applet: failed to connect to system D-Bus
+
+(wrapper-2.0:2478637): libupower-glib-WARNING **: 13:42:44.747: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 13:42:44.999: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 13:42:45.081: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 13:42:45.174: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfdesktop:2478566): GVFS-RemoteVolumeMonitor-WARNING **: 13:42:45.499: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:2478566): WARNING **: 13:42:50.079: Failed to get system bus: Could not connect: No such file or directory
+
+Wed Jul 22 13:43:28 2026
+ Connections: accepted: 127.0.0.1::33292
+
+Wed Jul 22 13:43:29 2026
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian bgr888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:13.190: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:13.214: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:13.238: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:48.079: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:48.106: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:2478471): xfce4-session-WARNING **: 14:12:48.119: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-power-manager:2478600): GLib-GObject-CRITICAL **: 14:12:50.191: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+The X session cleanly exited!
+Killing Xtigervnc process ID 2478470...
+Wed Jul 22 14:12:50 2026
+ VNCSConnST:  closing 127.0.0.1::33292: Server shutdown
+ EncodeManager: Framebuffer updates: 2018
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 1.684 krects, 6.8415 Mpixels
+ EncodeManager:            26.3125 KiB (1:1016.41 ratio)
+ EncodeManager:     Bitmap RLE: 134 rects, 69.944 kpixels
+ EncodeManager:                 4.23047 KiB (1:64.9548 ratio)
+ EncodeManager:     Indexed RLE: 2.798 krects, 1.72551 Mpixels
+ EncodeManager:                  441.437 KiB (1:15.3433 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 3.354 krects, 35.7369 Mpixels
+ EncodeManager:                  24.6267 MiB (1:5.53724 ratio)
+ EncodeManager:   Total: 7.97 krects, 44.3739 Mpixels
+ EncodeManager:          25.0876 MiB (1:6.7509 ratio)
+ ComparingUpdateTracker: 468.293 Mpixels in / 34.5119 Mpixels out
+ ComparingUpdateTracker: (1:13.569 ratio)
+ success!
