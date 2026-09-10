@@ -1,0 +1,1 @@
+Mass is conserved.For A, dense phase density is 6.0006574355288794e-05 and dilute phase density is 5.999706689737427e-05For B, dense phase density is 6.000082072383156e-05 and dilute phase density is 5.999669896652598e-05Dense phase fraction for A is 0.25, dilute is 0.1999969482421875Dense phase fraction for B is 0.25, dilute is 0.1999969482421875

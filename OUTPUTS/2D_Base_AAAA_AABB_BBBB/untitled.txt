@@ -1,0 +1,28 @@
+2d 3 component AAAA AABB BBBB with identical arm length and params
+
+Na = 0.5 # Units: M 
+T = 303.15 # Units: K
+valence = 4
+duration = 10 * 10**5 # In timesteps of dt
+gridpoints = 1024 # Number of points
+dx = 10 # Units: nm
+dt = 1.E-5 # Units: sec
+rho_mean = 6E-5 # Initial mean density of nanostar A, found by spinodal (rho dense + rho dilute)/2 for the value of T used
+save_interval = 10**5
+
+grid_length = dx * gridpoints # Total length (nm)
+inv_dx2 = 1.0 / (dx * dx)
+
+# Establishes constants
+K = 1.0E6 # Units: nm^5 
+M = 1 # Units: (nm s)^-1
+B2 = 2190 # Units: nm^3
+vb = 1.66 # Units: nm^3
+kB = 1.314E-23 * 0.24 # Units: cal/K (1J=0.24cal)
+mol = 6.02E23
+dHa = -42000 # Units: cal/mol 
+dS1 = 1.84 * np.log(Na) # Units: cal/mol K
+dS0 = -120 # Units: cal/mol K at 1M NaCl
+floor = 1E-12 # Minimum value for arrays
+num_saves = duration // save_interval + 1 # Number of saved values
+Cx = 0.5

@@ -1,0 +1,28 @@
+{
+  "n_components": 1,
+  "gridpoints": 128,
+  "n_timesteps": 250,
+  "channels": [
+    {
+      "name": "component_0",
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "contrast_limits": [
+        4.593081939674448e-06,
+        0.00027716014301404357
+      ]
+    }
+  ],
+  "sim_params": {
+    "B2": 2190,
+    "valence": 4,
+    "K": 1000000.0,
+    "type": "AAAA",
+    "recent_step": 24900000,
+    "max": 0.0002771601371616288,
+    "min": 4.593082091268723e-06
+  }
+}

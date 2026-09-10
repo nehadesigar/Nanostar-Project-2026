@@ -1,0 +1,2 @@
+Progress: 99 out of 100 at 10690.7 seconds
+Mass is conserved.For A, dense phase density is 0.0006067956555382844 and dilute phase density is 3.920496108000331e-06For B, dense phase density is 9.999886239136915e-05 and dilute phase density is 6.893897462431923e-06For C, dense phase density is 1.119773517295092e-05 and dilute phase density is 4.202597140356641e-07
